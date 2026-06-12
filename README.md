@@ -1,6 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Weatherdriven
 
-## Getting Started
+### Features
+
+#### Implemented
+
+TBD
+
+#### Planned
+
+## Features
+
+- Let users search for weather by city, ZIP code, or current location.
+- Request permission before using the user's current location.
+- Show the current temperature for the selected location.
+- Show the current weather condition, such as sunny, cloudy, rain, snow, or storm.
+- Show high and low temperatures for the day.
+- Show "feels like" temperature.
+- Show humidity, wind speed, and precipitation chance.
+- Show a multi-day weather forecast.
+- Show an hourly forecast for the current day.
+- Display weather icons that match each forecast condition.
+- Let users switch between Fahrenheit and Celsius.
+- Remember the user's last searched or selected location.
+- Show a loading state while weather data is being fetched.
+- Show an error message if weather data cannot be loaded.
+- Handle invalid or unknown location searches.
+- Refresh weather data when the user changes location.
+- Display the date and time of the latest weather update.
+- Work on both desktop and mobile screen sizes.
+- Remain usable if location permission is denied.
+- Protect any weather API key from being exposed in client-side code when required by the API provider.
+
+### Develop
 
 First, run the development server:
 
@@ -19,18 +50,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
